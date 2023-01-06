@@ -9,6 +9,7 @@
 
 class Hotel {
 public:
+  Hotel();
   Hotel(Chambre chambre, std::string id = "", std::string nom = "", std::string ville = "" );
   std::string id();
   std::string nom();

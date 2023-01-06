@@ -5,8 +5,8 @@
 #include "hotel.h"
 
 int main(int argc, char const *argv[]) {
-  /**Date publication(12, 12, 2012);
-  Date empruntdate(12, 12, 2022);
+  Date datedebut(12, 12, 2012);
+  //Date empruntdate(12, 12, 2022);
   Date retourdate(1, 1, 2023);*/
 
   Client Cl1("Terieur ", "Alain ", "152536");
