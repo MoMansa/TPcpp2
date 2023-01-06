@@ -8,6 +8,9 @@ Hotel::Hotel(Chambre chambre, std::string id, std::string nom, std::string ville
   _chambre.push_back(chambre);
   
 }
+std::string Hotel::getidHotel(){
+  return _id;
+};
 
 void Hotel::addchambre(Chambre chambre) { _chambre.push_back(chambre); }
 

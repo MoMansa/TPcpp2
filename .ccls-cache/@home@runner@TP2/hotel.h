@@ -17,6 +17,7 @@ public:
   void addchambre(Chambre);
   std::vector<Chambre> getchambre();
   std::string toString();
+  std::string getidHotel();
 
 private:
   std::string _id;
